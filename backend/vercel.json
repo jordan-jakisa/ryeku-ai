@@ -15,17 +15,5 @@
       "dest": "app/main.py"
     }
   ],
-  "env": {
-    "OPENAI_API_KEY": "@openai-api-key",
-    "AZURE_OPENAI_API_KEY": "@azure-openai-api-key",
-    "AZURE_OPENAI_ENDPOINT": "@azure-openai-endpoint",
-    "AZURE_OPENAI_DEPLOYMENT": "@azure-openai-deployment",
-    "AZURE_OPENAI_API_VERSION": "@azure-openai-api-version",
-    "DATABASE_URL": "@database-url",
-    "TAVILY_API_KEY": "@tavily-api-key",
-    "GOOGLE_CSE_API_KEY": "@google-cse-api-key",
-    "GOOGLE_CSE_ID": "@google-cse-id"
-  },
-  "name": "ryeku-ai-api",
   "ignoreCommand": "git diff --quiet $VERCEL_GIT_PREVIOUS_SHA $VERCEL_GIT_COMMIT_SHA -- backend"
 } 
