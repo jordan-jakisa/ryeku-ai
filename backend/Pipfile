@@ -4,12 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-langchain-community = "*"
+langchain-core = "*"
 uvicorn = "*"
 python-dotenv = "*"
 openai = "*"
-langchain = "*"
-langgraph = "*"
 aioredis = "*"
 pydantic = "*"
 langchain-openai = "*"
@@ -18,8 +16,8 @@ langchain-tavily = "*"
 "beautifulsoup4" = "*"
 tavily-python = "*"
 "tenacity" = "*"
-"google-api-python-client" = "*"
-fastapi = {extras = ["standard"], version = "*"}
+fastapi = "*"
+langgraph = "*"
 
 [dev-packages]
 pytest = "*"

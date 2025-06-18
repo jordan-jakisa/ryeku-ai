@@ -4,8 +4,8 @@ import asyncio
 from datetime import datetime
 from typing import List, Dict, Any, TypedDict, Optional
 from langchain_openai import AzureChatOpenAI
-from langchain.prompts import ChatPromptTemplate
-from langchain.schema import HumanMessage, SystemMessage, BaseMessage
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.messages import HumanMessage, SystemMessage, BaseMessage
 from langgraph.graph import StateGraph, END
 from app.models.pydantic_models import ResearchTopic, Source, Report
 from app.services.source_classifier import get_source_classifier
