@@ -25,5 +25,6 @@
     "TAVILY_API_KEY": "@tavily-api-key",
     "GOOGLE_CSE_API_KEY": "@google-cse-api-key",
     "GOOGLE_CSE_ID": "@google-cse-id"
-  }
+  },
+  "ignoreCommand": "git diff --quiet $VERCEL_GIT_PREVIOUS_SHA $VERCEL_GIT_COMMIT_SHA -- ."
 } 
