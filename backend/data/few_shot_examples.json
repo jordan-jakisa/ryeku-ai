@@ -1,0 +1,7 @@
+[
+  {"domain": "nytimes.com", "label": "Trusted"},
+  {"domain": "nature.com", "label": "Trusted"},
+  {"domain": "who.int", "label": "Trusted"},
+  {"domain": "examplefake.news", "label": "Other"},
+  {"domain": "theonion.com", "label": "Other"}
+] 
