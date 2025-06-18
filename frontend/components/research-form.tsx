@@ -61,7 +61,7 @@ export function ResearchForm() {
           <Sparkles className="w-8 h-8 text-black" />
         </div>
         <h1 className="text-4xl font-bold text-white">
-          AI-Powered Deep Research
+          AI-Powered Research with RyekuAI
         </h1>
         <p className="text-xl text-gray-300 max-w-2xl mx-auto">
           Enter your research topic and let our AI analyze authoritative sources
