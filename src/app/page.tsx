@@ -1,8 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
-import NavBar from "@/components/nav-bar";
 import TopicInput from "@/components/topic-input";
 import { toast } from "sonner";
 import SourceSelection from "@/components/source-selection";
